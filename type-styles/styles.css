@@ -1,0 +1,241 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #335c67;
+    margin: 20px;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    color: rgb(245, 245, 231);
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+.stylesummary {
+    border: 2px solid #540b0e;
+    background-color: #462223;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.stylesummary:hover {
+    transform: scale(1.10);
+    box-shadow: 0 4px 6px rgb(251, 248, 197);
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.fontweight {
+    border: 2px solid #540b0e;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.fontweight:hover {
+    border: 2px solid gold;
+}
+
+.regular {
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.regular:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.semibold {
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.semibold:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.bold {
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.bold:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.fontstyle {
+    border: 2px solid #540b0e;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.fontstyle:hover{
+    border: 2px solid gold;
+}
+
+.italic {
+    font-style: italic;
+    transition: all 0.5s ease;
+}
+
+.italic:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.normal {
+    font-style: normal;
+    transition: all 0.5s ease;
+}
+
+.normal:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.letterspacing {
+    border: 2px solid #540b0e;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.letterspacing:hover {
+    border: 2px solid gold;
+}
+
+.tight {
+    letter-spacing: -1px;
+    transition: all 0.5s ease;
+}
+
+.tight:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.normal-spacing {
+    letter-spacing: 0px;
+    transition: all 0.5s ease;
+}
+
+.normal-spacing:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.wide {
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+
+.wide:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.texttransform {
+    border: 2px solid #540b0e;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.texttransform:hover {
+    border: 2px solid gold;
+}
+
+.normal {
+    text-transform: none;
+    transition: all 0.5s ease;
+}
+
+.normal:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.uppercase {
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.uppercase:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.lowercase {
+    text-transform: lowercase;
+    transition: all 0.5s ease;
+}
+
+.lowercase:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.capitalize {
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+}
+
+.capitalize:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.textdecoration {
+    border: 2px solid #540b0e;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.textdecoration:hover {
+    border: 2px solid gold;
+}
+
+.underline {
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+.underline:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.linethrough {
+    text-decoration: line-through;
+    transition: all 0.5s ease;
+}
+
+.linethrough:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.overline {
+    text-decoration: overline;
+    transition: all 0.5s ease;
+}
+
+.overline:hover {
+    transform: scale(1.5) translateX(65px);
+}
+
+.overlineunderline {
+    text-decoration: overline underline;
+    transition: all 0.5s ease;
+}
+
+.overlineunderline:hover {
+    transform: scale(1.5) translateX(65px);
+}
