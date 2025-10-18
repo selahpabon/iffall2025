@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.7;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255,0,0, .3);
+    padding-top: 138px;
+    padding-bottom: 150px;
+
+    background-image: url('../Images/IFFALL2025.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.panel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: min(100% - 3rem, var(--maxw));
+    margin-inline: auto;
+    padding-top: 34px;
+}
+
+.one {
+    position: relative;
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.one h1 {
+    margin: 0 0 -47px;
+    font-weight: 800;
+    font-size: 80px;
+    text-shadow: 0px 0px 5px #97cfcc;
+}
+
+.one h2 {
+    font-size: 30px;
+    text-shadow: 0px 0px 5px #97cfcc;
+}
+
+.two {
+    background: #e7d69c;
+    color: white;
+    height: 720px;
+}
+
+.section-title {
+    margin: 0 0 6px;
+    padding-left: 1px;
+    font-weight: 710;
+    font-size: 40px;
+    text-align: center;
+
+    text-shadow: 0px 0px 5px #be668d;
+}
+
+.text {
+    margin-left: 240px;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 950px;
+}
+
+.float-img {
+   float: right;
+    width: 405px;
+    height: 305px;
+    object-fit: cover;
+    margin: 5px 38px 25px;
+    margin-right: 236px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.357);
+}
+
+.three{
+    background-color: grey;
+    margin-bottom: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 21px 62px;
+    margin-left: 238px;
+    margin-top: 22px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 202px 1fr;
+    gap: 12px;
+    width: 500px;
+
+    align-items: start;
+}
+
+.card img {
+    width: 204px;
+    height: 154px;
+    object-fit:cover;
+    background: rgb(255, 255, 255);
+    border: 2px solid #e7d69c;
+}
+
+.card h3 {
+    margin-top: 0px;
+    margin-bottom: 7px;;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card p {
+    margin: 0;
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    width: 225px;
+}
+
+.four {
+    background-color: white;
+    height: 410px;
+}
+.four p {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 23.5px;
+    margin-left: 360px;
+    font-size: 26px;
+    line-height: 36.5px;
+    text-align: center;
+}
+
+footer {
+    background: sienna;
+    color: gold;
+    padding: 1.2rem 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 40px;
+}
