@@ -1,0 +1,669 @@
+@font-face {
+  font-family: 'LP Horizont Caps';
+  src: url('../fonts/LPHorizontCaps.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham\ Book.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clairvaux Regular';
+  src: url('../fonts/Clairvaux\ Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GuessSans Heavy';
+  src: url('../fonts/GuessSans-Heavy.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yaro Black';
+  src: url('../fonts/yaro-complete-family/vladb-yaroop-black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Showcase Sans Mini';
+  src: url('../fonts/latinotype-showcasesansmini-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NYT Caslon';
+  src: url('../fonts/New-Yorker-Font/ACaslonPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NYT Caslon';
+  src: url('../fonts/New-Yorker-Font/ACaslonPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ralsteda';
+  src: url('../fonts/ralsteda/RalstedaRegular-4Bqy9.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a#btn_harleydavidson {
+  display: inline-block;
+  height: 50px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 7px 5px 7px;
+	background-color: #282320;
+	border: 4px solid #f96b0a;
+  border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'LP Horizont Caps', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.dash {
+    color: #f96b0a;
+    transition: all .5s;
+}
+
+a#btn_harleydavidson:hover {
+			background-color: #000;
+			border: 4px solid #fff;
+                border-radius: 0px;
+			color: #f96b0a;
+                transform: scale(1.2);
+			}
+
+a#btn_harleydavidson:hover .dash {
+    color: #fff;
+}
+
+a#btn_michaelkors {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px 7px 0px 7px;
+  background-color: #f4f4f4;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: 600; 
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease, border 0.3s ease, width 0.4s ease;
+}
+
+a#btn_michaelkors:hover {
+ background-color: rgb(230, 230, 230);
+ border: 2px solid #2c2b2b;
+ width: 150px; 
+}
+
+.name {
+  display: inline-block;
+  transition: transform 0.5s ease, opacity 0.4s ease 0.2s; 
+  transform-origin: center center;
+  position: relative;
+  z-index: 2;
+  font-weight: 600; 
+}
+
+.name::after {
+  content: 'MICHAEL KORS';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0;
+  color: #000;
+  font-size: 11px;
+  letter-spacing: -0.5px;
+  transition: opacity 0.4s ease 0.1s, transform 0.5s ease; 
+  white-space: nowrap;
+  z-index: 3; 
+  pointer-events: none;
+  font-weight: 800; 
+}
+
+
+a#btn_michaelkors:hover .name {
+  transform: scale(0.5);
+  color: transparent; 
+  transition: transform 0.5s ease, color 0.3s ease; 
+}
+
+a#btn_michaelkors:hover .name::after {
+  opacity: 1;
+  color: #2c2b2b;
+  transform: translate(-50%, -50%) scale(3);
+  transition: opacity 0.6s ease 0.1s, transform 0.6s ease;
+}
+
+a#btn_sardellastl {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 50px;
+  padding: 45px 7px 0px 7px;
+  background-color: #054047;
+  border: 1px solid #f5f0ec;
+  border-radius: 100px;
+  color: #054047;
+  font-family: "braisetto", script;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease, border 0.3s ease, transform 0.3s ease;
+}
+
+a#btn_sardellastl:hover {
+ background-color: #d7360f;
+ border: 2px solid #f5f0ec;
+ color: #d7360f;
+ transform: scale(1.1);
+}
+
+a#btn_sardellastl {
+  color: transparent;
+}
+
+a#btn_sardellastl::before {
+  content: 'P';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "braisetto", script;
+  font-size: 50px;
+  font-weight: 600;
+  color: #d7360f;
+  transition: transform 0.35s ease, left 0.35s ease;
+  z-index: 3;
+  pointer-events: none;
+}
+
+a#btn_sardellastl::after {
+  content: 'astaria';
+  position: absolute;
+  left: 62%;
+  top: 56%;
+  transform: translate(-50%, -50%) translateY(2px) scale(1);
+  opacity: 0;
+  font-family: "braisetto", script;
+  font-size: 28px;
+  font-weight: 600;
+  color: #054047;
+  transition: opacity 0.35s ease 0.05s, transform 0.35s ease 0.05s, left 0.35s ease;
+  z-index: 2;
+  pointer-events: none;
+  letter-spacing: -1px;
+}
+
+a#btn_sardellastl:hover::before {
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: #054047;
+}
+
+a#btn_sardellastl:hover::after {
+  left: 56%;
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+}
+
+a#btn_bissingers {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 100px;
+  padding: 2px 20px;
+  background: transparent;
+  border: 3px solid #c19621;
+  border-radius: 5px;
+  color: #c19621;
+  font-size: 35px;
+  font-family: 'Clairvaux Regular', serif;
+  font-weight: 400;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+a#btn_bissingers::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 1;
+  transform: translateX(0);
+  transition: transform 0.45s ease;
+  pointer-events: none;
+}
+
+a#btn_bissingers > span,
+a#btn_bissingers {
+  position: relative;
+  z-index: 2;
+}
+
+a#btn_bissingers:hover::before {
+  transform: translateX(100%);
+}
+
+a#btn_bissingers:hover {
+  color: #c19621;
+  transform: none;
+}
+
+a#btn_mobotanical {
+  display: inline-block;
+  width: 245px;
+  height: 25px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 100px;
+  padding: 3px 20px;
+  background: #006c37;
+  border: 2px solid #efcc71;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-family: 'GuessSans Heavy', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+
+#btn_mobotanical .logo {
+  position: absolute;
+  top: 33px;
+  left: 35px;
+  width: 45px;
+  height: 45px;
+  transform: translate(-50%, -50%) scale(0.2);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+#btn_mobotanical .label {
+  position: relative;
+  z-index: 2;
+  transition: all 0.4s ease;
+}
+
+#btn_mobotanical:hover {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border-color: #efcc71;
+  background-color: white;
+  color: transparent; 
+  padding: 0;
+}
+
+#btn_mobotanical:hover .label {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+#btn_mobotanical:hover .logo {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+a#btn_thecolorrun {
+  display: inline-block;
+  margin-top: 70px;
+  position: relative;
+  height: 100px;
+  width: 70px;
+  box-sizing: border-box;
+  background-color: #1d0740;
+  color: white;
+  font-family: "Roc Grotesk", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+
+  transition: all 0.6s ease;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+  transition: all 0.6s ease;
+}
+
+.initials {
+  color: white;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.full {
+  left: 40%;
+  align-items: flex-start;
+  transform: translate(-50%, -50%) translateX(60%);
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  gap: 4px;
+}
+
+.full .the { color: #e810ab; }
+.full .color { color: #ffe600; }
+.full .run { color: #00ccff; }
+
+.full span {
+  display: inline-block;
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+a#btn_thecolorrun:hover {
+  width: 90px;
+}
+
+a#btn_thecolorrun:hover .initials {
+  transform: translate(-50%, -50%) translateX(-60%);
+  opacity: 0;
+}
+
+a#btn_thecolorrun:hover .full {
+  transform: translate(-50%, -50%) translateX(0);
+  opacity: 1;
+}
+
+a#btn_thecolorrun:hover .full .the,
+a#btn_thecolorrun:hover .full .color,
+a#btn_thecolorrun:hover .full .run {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.6s ease;
+}
+
+a#btn_thecolorrun:hover .full .color {
+  transition-delay: 0.1s;
+}
+a#btn_thecolorrun:hover .full .run {
+  transition-delay: 0.2s;
+}
+
+a#btn_moo {
+  position: relative;
+  margin-top: 90px;
+  display: inline-block;
+  padding: 14px 48px;
+  font-family: 'Yaro Black', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #02ad74;
+  background: #fff;
+  border: 3px solid #02ad74;
+  border-radius: 40px;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 6px 0 #02ad74;
+  transition: all 0.25s ease;
+}
+
+a#btn_moo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: #02ad74;
+  z-index: 0;
+  transition: width 0.4s ease;
+}
+
+a#btn_moo span {
+  position: relative;
+  z-index: 1;
+}
+
+a#btn_moo:hover::before {
+  width: 100%;
+}
+
+a#btn_moo:hover {
+  color: #fff;            
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 #02ad74;
+}
+
+a#btn_mollyjogger {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 90px;
+  padding: 14px 26px;
+  border-radius: 8px;
+
+  margin-top: 55px;
+
+  background-color: #3c451c;
+  border: 3px solid #a8a375;
+  color: #fdf9f5;
+  box-shadow: 0 6px 0 #262824;
+
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+a#btn_mollyjogger::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../Images/cream-paper.png');
+  background-size: cover;
+  background-repeat: repeat;
+  opacity: 0;
+  mix-blend-mode: overlay;   
+  transition: opacity 0.6s ease;
+  pointer-events: none;      
+  z-index: 1;
+}
+
+
+a#btn_mollyjogger .label {
+  font-family: old-man-eloquent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+
+  margin-bottom: 0px;
+}
+
+a#btn_mollyjogger .subtitle {
+  font-family: 'Showcase Sans Mini', sans-serif;
+  font-size: 10px;
+  color: #a8a375;
+  margin-top: 0px;
+  letter-spacing: 1.5px;
+  position: relative;
+  z-index: 2;
+}
+
+a#btn_mollyjogger:hover {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 #262824;
+  background-color: #c5bf92;
+}
+
+a#btn_mollyjogger:hover .subtitle {
+  color: #fdf9f5;
+}
+
+a#btn_mollyjogger:hover .label {
+  color: #3c451c;
+}
+
+a#btn_mollyjogger:hover::after {
+  opacity: 0.8; 
+  mix-blend-mode: overlay;
+}
+
+a#btn_newyorker {
+  display: inline-block;
+  position: relative;
+  padding: 16px 40px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000;
+  text-decoration: none;
+  font-family: 'NYT Caslon', serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-top: 85px;
+  transition: all 0.4s ease;
+}
+
+a#btn_newyorker::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  width: 0%;
+  height: 2px;
+  background-color: #da3435;
+  transition: all 0.4s ease;
+  transform: translateX(-50%);
+}
+
+a#btn_newyorker:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+a#btn_newyorker:hover::after {
+  width: 60%;
+}
+
+a#btn_newyorker .nyt-text {
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+
+a#btn_newyorker:hover .nyt-text {
+  transform: translateY(-2px);
+}
+
+a#btn_instagram {
+  position: relative;
+  display: flex;                 
+  justify-content: center;
+  align-items: center;
+
+  width: 110px;
+  height: 115px;
+  border-radius: 40px;
+
+  font-family: 'Ralsteda', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  text-decoration: none;
+  overflow: hidden;
+  
+  margin-top: 70px;
+  margin-left: 70px;
+
+  transition: all 0.4s ease;  
+  cursor: pointer;
+}
+
+a#btn_instagram::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg,
+    #d300c5,
+    #ff105d,
+    #ff492c,
+    #ffc600);
+  background-size: 300% 300%;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease, background-position 1.2s ease;
+}
+
+a#btn_instagram span {
+  position: relative;
+  z-index: 1;
+}
+
+a#btn_instagram:hover::before {
+  opacity: 1;
+  background-position: 100% 0;
+}
+
+a#btn_instagram:hover {
+  color: #fff;
+  border-color:transparent;
+  box-shadow: 0 0 15px rgba(211, 0, 197, 0.4);
+}
